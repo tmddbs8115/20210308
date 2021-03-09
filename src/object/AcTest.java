@@ -3,7 +3,7 @@ package object;
 public class AcTest {
 	
 	public static void main(String[] args) {
-		Warrior w1 = new Warrior("전사임");
+		Warrior w1 = new Warrior("전사");
 		
 		w1.getStatus();
 		
@@ -16,7 +16,7 @@ public class AcTest {
 		w1.getStatus();
 		
 		
-		Magician m1 = new Magician("마법사임");
+		Magician m1 = new Magician("마법사");
 		
 		m1.getStatus();
 
